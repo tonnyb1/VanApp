@@ -10,7 +10,7 @@ import Reviews from './pages/Host/Reviews'
 import HostLayout from './components/HostLayout'
 
 import './server'
-import Vans from './pages/vans/Vans'
+import Vans from './pages/Vans/Vans'
 import VanDetail from './pages/vans/VanDetail'
 
 

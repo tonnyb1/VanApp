@@ -11,7 +11,7 @@ import HostLayout from './components/HostLayout'
 
 import './server'
 import Vans from './pages/Vans/Vans'
-import VanDetail from './pages/vans/VanDetail'
+import VanDetail from './pages/Vans/VanDetail'
 
 
 function App() {

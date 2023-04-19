@@ -12,6 +12,7 @@ import HostLayout from './components/HostLayout'
 import './server'
 import Vans from './pages/Vans/Vans'
 import VanDetail from './pages/Vans/VanDetail'
+import Login from './pages/Login'
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/vans" element={<Vans />} />
           <Route path="/vans/:vanId" element={<VanDetail />} />
+          <Route path="/login" element={<Login />} />
 
           <Route path="/host" element={<HostLayout />} >
             <Route index element={<Dashboard />} />

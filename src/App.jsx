@@ -12,7 +12,7 @@ import HostLayout from './components/HostLayout'
 import './server'
 import Vans from './pages/Vans/Vans'
 import VanDetail from './pages/Vans/VanDetail'
-import Login from './pages/Login'
+// import Login from './pages/Login'
 
 
 function App() {

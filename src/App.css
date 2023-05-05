@@ -9,6 +9,11 @@ html, body {
   font-family: "Inter", sans-serif;
 }
 
+a {
+  text-decoration: unset;
+  color: unset;
+}
+
 body::-webkit-scrollbar {
 display: none;
 }
@@ -43,12 +48,16 @@ header a {
   text-decoration: none;
   color: #4D4D4D;
   font-weight: 600;
-  padding: 5px 20px;
+  padding: 5px 15px;
 }
 
 header a:hover {
   color: #161616;
   text-decoration: underline;
+}
+
+header button {
+  cursor: pointer;
 }
 
 header .login-icon {
@@ -195,6 +204,15 @@ footer {
 /*** VAN PAGES ***/
 .van-list-container {
   padding-inline: 23px
+}
+
+.van-list-filter-buttons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.van-list-filter-buttons > a {
+  margin-right: 15px;
 }
 
 .van-list {
@@ -515,4 +533,13 @@ i[class*='van-type-'] {
   margin-top: 22px;
   color: white;
   font-family: "Inter", sans-serif;
+}
+
+.login-form > button:disabled {
+  background-color: #aaaaaa;
+  cursor: not-allowed;
+}
+
+.red {
+  color: #cc0000;
 }
